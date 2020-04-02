@@ -25,6 +25,7 @@
    * Query Builder utilizado knexjs.org
    */
 const express = require('express');
+const cors = require('cors');
 //importando as rotas
 const routes = require('./routes');
 
